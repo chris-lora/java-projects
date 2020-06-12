@@ -1,3 +1,12 @@
+/*
+Program does the following:
+1. Asks user to enter integer for number of attempts.
+2. Generates random x and y coordinates.
+3. Runs a loop that generates (x,y) coordinates until total attempts are ran.
+4. Calculates if (x,y) are within circle - calls it a hit and counts them.
+5. Calculates value for Pi estimate and margin of error. 
+*/
+
 import java.lang.*;
 import java.util.*;
 
