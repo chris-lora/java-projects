@@ -1,3 +1,10 @@
+/*
+Program does the following:
+1. Prompts user to enter a innvestment amount, an interest rate, and term length of investment.
+2. Prints the value of the investment at the end of each year.
+3. Prints the total profit of the investment. 
+*/
+
 import java.io.*;
 import javax.swing.*;
 import java.lang.*;
