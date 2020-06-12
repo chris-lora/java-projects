@@ -9,19 +9,19 @@ public class temperature_converter {
 			  System.out.println("Enter Fahrenheit temperature: ");
 			  double fTemp = in.nextDouble();
 			  double cTemp = ((fTemp - 32) * (5.0/9));
-			  System.out.printf("%5.1f F converts to %5.1f C.", fTemp, cTemp);}
-		  else if(convertCode == 2) {
+			  System.out.printf("%5.1f F converts to %5.1f C.", fTemp, cTemp);
+		  } else if(convertCode == 2) {
 			  System.out.println("Enter Celsius temperature: ");
 			  double cTemp = in.nextDouble();
 			  double fTemp = (cTemp * 1.8) + 32;
 			  System.out.printf("%5.1f C converts to %5.1f F.", cTemp, fTemp);
-			  }
-		  in.close();
 		  }
+		  in.close();
+	  }
 	  catch(Exception e) {
 		  System.out.println("Invalid input.");
-		  }
+	  }
 	  System.out.printf("\nGoodbye.");
 	  System.exit(1);
-	  }
   }
+}
