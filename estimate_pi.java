@@ -12,8 +12,7 @@ public class estimate_pi {
 		if (attempts < 1 || attempts % 1 != 0) {//doesn't run numbers less than one or decimals
 			System.out.println("Error. Invalid entry.");
 			System.exit(1);
-			}
-		else {
+		} else {
 			for (int i = 1; i <= attempts; i++) {
 				x = Math.random();
 				y = Math.random();
