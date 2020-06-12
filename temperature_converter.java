@@ -1,3 +1,11 @@
+/*
+Program does the following: 
+1. Asks user what conversion they want to make. 
+2. If user enters 1, converts Fahrenheit to Celsius.
+3. If user enter 2, converts Celsius to Fahrenheit.
+4. Other inputs terminate the program. 
+*/
+
 import java.util.*;
 
 public class temperature_converter {
