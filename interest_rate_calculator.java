@@ -18,11 +18,11 @@ public class interest_rate_calculator {
 				interestRate = Double.parseDouble(tempRate0);
 				investYears = Integer.parseInt(tempYears0);
 				valid = true;
-				}
+			}
 			catch(NumberFormatException e) {
 				JOptionPane.showMessageDialog(null, "One or more of your inputs are invalid. Please try again.");
-				}
 			}
+		}
 		if (initInvest < 0 || investYears < 0)
 			JOptionPane.showMessageDialog(null, "One or more of your inputs are invalid. Please try again.");
 		else {
@@ -31,10 +31,10 @@ public class interest_rate_calculator {
 				double tempInvest1 = initInvest * Math.pow((tempRate1), (n * (i)));
 				JOptionPane.showMessageDialog(null, "Value investment after " + i + " year(s) is: " + tempInvest1); 
 				//prints each year investment
-				}	
+			}	
 			double finalInvest = initInvest * Math.pow((1.0 + (interestRate/100.0)/n), (n * investYears));
 			double totalProfit = finalInvest - initInvest; //print final profit (formula - principle)
 			JOptionPane.showMessageDialog(null, "Total profit for " + investYears + " year(s) is: " + totalProfit);
-			}
 		}
 	}
+}
