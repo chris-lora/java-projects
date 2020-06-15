@@ -1,3 +1,13 @@
+/*
+Program does the following:
+1. Reads the contents of the file (Alice01.txt) and stores it in a string.
+2. Converts the string to lower case characters. 
+3. Removes all special characters from the file; punctuation, digits and any other non-alphabetic characters.
+4. Removes duplicate words.
+5. Creates a list that contains are of the words in the file.
+6. Saves the list of words to an output file. 
+*/
+
 import java.io.*;
 import java.util.*;
 
